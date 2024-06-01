@@ -6,5 +6,13 @@ namespace Recordance
         {
             InitializeComponent();
         }
+
+        SignInForm signinform = new SignInForm();
+
+        private void startButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            signinform.Show();
+        }
     }
 }
